@@ -3695,7 +3695,10 @@ INSERT INTO `auctionhousebot_professionItems` (`Entry`, `Item`) VALUES
 (3657, 50816),
 (3658, 52020),
 (3659, 52021),
-(3660, 54797);
+(3660, 54797),
+(3661, 2589),
+(3662, 2592),
+(3663, 4306);
 
 --
 -- Indexes for dumped tables
