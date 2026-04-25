@@ -58,7 +58,8 @@ WHERE (
     NAME LIKE '%deprecated%' OR 
     NAME LIKE '%book%' OR 
     NAME LIKE '%libram%' OR 
-    NAME LIKE '%guide%'
+    NAME LIKE '%guide%' OR
+    NAME LIKE '%(nyi)%'
 )
 OR NAME COLLATE utf8mb4_bin LIKE '%OLD%' 
 OR UPPER(NAME) LIKE '%NPC%' 
